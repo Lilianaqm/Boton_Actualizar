@@ -41,7 +41,7 @@
     <td>{{$estudiantes->Matricula}}</td>
     <td>{{$estudiantes->Nombre}}</td>
     <td>{{$estudiantes->Direccion}}</td>
-    <td> <a href="{{ route ('Lista.edit',$estudiantes->id) }}" class="btn btn-primary">Actualizar</a>
+    <td> <a href="{{ route ('Lista.edit',$estudiantes->id) }}" class="btn btn-primary btn-sm btn btn-warning btn-sm">Actualizar</a>
 </td>
     <td> 
     <form method="POST" action="{{ url("Lista/{$estudiantes->id}") }}">
